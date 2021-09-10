@@ -4,6 +4,7 @@
 
 body {
   font-family: "Hind Madurai", sans-serif;
+  background-color: #0be881;
 }
 
 .moving__text {
@@ -22,12 +23,8 @@ body {
   background-color: #ffd32a;
 }
 .moving__text span {
-  font-size: 30px;
+  font-size: 25px;
   animation: movingText 3s linear infinite;
-}
-
-.movie__container {
-  padding: 20px 60px;
 }
 
 @keyframes movingText {
@@ -38,28 +35,44 @@ body {
     transform: translateX(0px);
   }
 }
+.movie__container {
+  padding: 20px 60px;
+}
+
+.fight__container {
+  display: flex;
+}
+
 header {
   /* font-family: "Antic Slab", serif; */
-  font-size: 20px;
+  font-size: 14px;
 }
 ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
-.list__links {
-  display: flex;
+li {
+  padding: 1px 30px;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+li:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 3px 5px #ffd32a;
 }
 
 .list__logo a:link,
 .list__logo a:visited {
-  margin-right: 20px;
   color: black;
   text-decoration: none;
 }
 .list__link a:link,
 .list__link a:visited {
-  margin-right: 20px;
   color: black;
   text-decoration: none;
 }

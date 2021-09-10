@@ -7,12 +7,12 @@ const MovieFight = () =>{
             <header>
                 <nav>
                     <ul>
-                        <div> <li className="list__logo"><a href="#">MMF</a></li></div>
-                        <div className="list__links">
-                            <li className="list__link"><a href="#">More</a></li>
-                            <li className="list__link"><a href="#">Series</a></li>
-                            <li className="list__link"><a href="#">about</a></li>
-                        </div>
+                        <li className="list__logo"><a href="#">MMF</a></li>
+                        <li className="list__link"><a href="#">Movie</a></li>
+                        <li className="list__link"><a href="#">Series</a></li>
+                        <li className="list__link"><a href="#">About</a></li>
+                        <li className="list__link"><a href="#">Founder</a></li>
+                        <li className="list__link"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </header>
